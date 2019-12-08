@@ -13,7 +13,7 @@ Discord.py https://discordpy.readthedocs.io/ja/latest/index.html \
 `python3 -m pip install discord.py`
 \
 \
-Discord Botを使用します。Discord Developer PortalからApplicationを作成してBotを追加し、任意のサーバーに作成したBotを招待してください。\
+Discord Botを使用します。以下を参考に、Discord Developer PortalからApplicationを作成してBotを追加し、任意のサーバーに作成したBotを招待してください。\
 https://discordpy.readthedocs.io/ja/latest/discord.html#inviting-your-bot \
 \
 "config.json"に、BotのTokenと任意のチャンネルIDを設定します。
