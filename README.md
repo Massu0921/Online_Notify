@@ -14,7 +14,7 @@ Python3.7にて動作を確認しています。
 `python3 -m pip install discord.py`
 \
 \
-Discord Botを使用します。以下を参考に、Discord Developer PortalからApplicationを作成してBotを追加し、任意のサーバーに作成したBotを招待してください。\
+**Discord Bot**を使用します。以下を参考に、Discord Developer PortalからApplicationを作成してBotを追加し、任意のサーバーに作成したBotを招待してください。\
 https://discordpy.readthedocs.io/ja/latest/discord.html#inviting-your-bot \
 \
 "config.json"に、BotのTokenと任意のチャンネルIDを設定します。
