@@ -7,7 +7,7 @@ import os
 
 def main():
     # open config.json
-	with open(os.path.dirname(os.path.abspath(__file__)) + "\config.json", 'r') as cf:
+	with open(os.path.dirname(os.path.abspath(__file__)) + "/config.json", 'r') as cf:
 		config = json.load(cf)
 	
 	device_info = socket.gethostbyname_ex(socket.gethostname() + ".local")
