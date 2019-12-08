@@ -2,7 +2,7 @@ import json, socket, time, sys, os
 import discord
 
 # open config.json
-with open(os.path.dirname(os.path.abspath(__file__)) + "\config.json", 'r') as cf:
+with open(os.path.dirname(os.path.abspath(__file__)) + "/config.json", 'r') as cf:
     config = json.load(cf)
 
 client = discord.Client()
