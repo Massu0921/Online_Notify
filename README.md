@@ -1,5 +1,5 @@
 # Online_Notify
-Raspberry Pi等のコンピュータが起動時に、ホスト名とローカルIPアドレスをSNSに通知します。
+Raspberry Pi等のコンピュータの起動時に、ホスト名とローカルIPアドレスをSNSに通知します。
 
 ## 対応SNS
 現在、Discordのみ対応です。よく鯖落ちするので、Slackとかも検討しようと思います
@@ -9,7 +9,8 @@ Python3.7にて動作を確認しています。
 
 ### Discord
 以下のライブラリをインストールしてください。\
-Discord.py https://discordpy.readthedocs.io/ja/latest/index.html \
+\
+**Discord.py** https://discordpy.readthedocs.io/ja/latest/index.html \
 `python3 -m pip install discord.py`
 \
 \
