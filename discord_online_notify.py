@@ -1,6 +1,8 @@
 import json, socket, time, sys, os
 import discord
 
+time.sleep(20)
+
 # open config.json
 with open(os.path.dirname(os.path.abspath(__file__)) + "/config.json", 'r') as cf:
     config = json.load(cf)

@@ -5,6 +5,8 @@ import time
 import sys
 import os
 
+time.sleep(20)
+
 def main():
     # open config.json
 	with open(os.path.dirname(os.path.abspath(__file__)) + "/config.json", 'r') as cf:
